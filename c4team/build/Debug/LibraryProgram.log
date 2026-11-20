@@ -1,0 +1,17 @@
+﻿  admin.c
+  crypto.c
+  file.c
+  loan.c
+  main.c
+  page_admin.c
+  page_home.c
+  page_loan.c
+  page_search.c
+  page_seat.c
+  page_student.c
+  search.c
+  seat.c
+  ui.c
+  user.c
+  코드를 생성하고 있습니다...
+  LibraryProgram.vcxproj -> C:\Users\gwons\Downloads\c4team\LibraryProgram.exe
