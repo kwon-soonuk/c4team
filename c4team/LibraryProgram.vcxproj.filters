@@ -1,0 +1,92 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="1. 공통 약속 (헤더)">
+      <UniqueIdentifier>{CC16991A-9083-454F-9634-3DB95CC167C2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="2. 로직 (계산)">
+      <UniqueIdentifier>{AA554615-282F-4417-B5F0-36D2010EF26B}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="3. 화면 (Win32)">
+      <UniqueIdentifier>{7A461D98-D176-4184-B3F2-7B6C5F3F4D2D}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="4. 데이터 파일">
+      <UniqueIdentifier>{3F2B6C1E-5D4A-4B8E-9C7F-1A2B3C4D5E6F}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="src\library.h">
+      <Filter>1. 공통 약속 (헤더)</Filter>
+    </ClInclude>
+    <ClInclude Include="src\ui.h">
+      <Filter>1. 공통 약속 (헤더)</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="src\user.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\search.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\loan.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\seat.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\file.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\admin.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\crypto.c">
+      <Filter>2. 로직 (계산)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\main.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\ui.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\page_home.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\page_search.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\page_loan.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\page_seat.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\page_admin.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+    <ClCompile Include="src\page_student.c">
+      <Filter>3. 화면 (Win32)</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <Text Include="data\admin.txt">
+      <Filter>4. 데이터 파일</Filter>
+    </Text>
+    <Text Include="data\books.txt">
+      <Filter>4. 데이터 파일</Filter>
+    </Text>
+    <Text Include="data\seats.txt">
+      <Filter>4. 데이터 파일</Filter>
+    </Text>
+    <Text Include="data\slots.txt">
+      <Filter>4. 데이터 파일</Filter>
+    </Text>
+    <Text Include="data\users.txt">
+      <Filter>4. 데이터 파일</Filter>
+    </Text>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="README.md" />
+  </ItemGroup>
+</Project>
